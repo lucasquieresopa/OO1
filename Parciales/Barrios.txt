@@ -1,0 +1,20 @@
+Un ente gubernamental a cargo de urbanizar nuevos barrios en toda la Provincia requiere un sistema para la administracion de la venta de lotes. Se urbanizarán nuevos barrios utilizando lotes que son propiedad del Estado (a estos barrios se los llama "Barrios Populares") y también privados que el Estado compra para crear los barrios nuevos (estos barrios reciben el nombre de "Nuevas Urbanizaciones").
+Para ambos tipos de barrios se requiere registrar la ciudad, la cantidad de lotes que contiene y las mejoras de urbanización a realizar. De cad amejora que se realice se requiere saber su costo y una descripción (por ejemplo, "cordon cuneta". "apertura de calles", "servicio de agua corriente", etc).
+
+1. El sistema debe facilitar el cálculo del costo de un lote de un barrio para su estructuración final:
+
+a- Para los lotes hechos en terrenos del Estado, el costo final del lote se calcula dividiendo el costo total de mejoras por la cantidad de lotes y sumando un costo por los gastos de registro. Los gastos de registro consisten en un monto fijo por lote (actualmente $30.000) más el proporcional que corresponda al lote de los honorarios que cobró el agrimensor por todo el barrio (estos honorarios cambian de un barrio a otro).
+
+b- Para los lotes en barrios de tierras privadas a comprar, el costo de cada lote se calcula dividiendo por el total de lotes la suma del total por mejoras + el precio del terreno a comprar.
+
+2. Por otro lado se quiere saber:
+
+a- La totalidad de lotes a urbanizar, contemplando lotes en barrios populares y también en barrios de tierras privadas a adquirir.
+
+b- El total de inversión a realizar, contemplando todas las mejoras en ambos tipos de barrios y sumando el costo del terreno en los barrios de tierras privadas a adquirir.
+
+c- Dada una ciudad, el promedio de precio de lote de Barrio Popular y el promedio del precio de lote Nueva Urbanización (devuelve Promedio Barrio Popular: $0000 - Promedio Nueva Urbanización $000)
+
+Tareas: 
+Realizar diagrama UML (incluya todos los objetos necesarios, sus contructores, métodos y relaciones. Puede evitar los getters y setters).
+Implemente lo pedido en Java.

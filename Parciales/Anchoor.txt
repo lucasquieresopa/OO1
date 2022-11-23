@@ -1,0 +1,23 @@
+Sea Anchoor un sistema que publica y permite reproducir podcasts. Cada podcast es una pista de audio. que se organiza en series o programas. De cada pista se conoce un tituko.
+autor, duración y techa. De cada programa se conoce el titulo., los temas que aborda (puede
+ser más de uno para todo el programa) y cada uno de sus podcasts (cada uno de los podcasts tiene un orden especifico en el programa).
+Cada usuario en Anchoor puede reproducir un podcast en particular, o elegir un programa y escuchar sus podcasts en un orden elegido. Cada usuario tiene una lista de programas
+favoritos y una lista de contactos (que son otros usuarios de Anchoor)
+
+1)
+Tareas:
+Diseñar un modelo de objetos para resolver el problema planteado y presentarto con un diagrama de clases UML
+
+
+2) Programar en Java lo necesario para obtener la siguiente funcionaidad (incluya os constructores de todos los objetos. no es necesario que inciuya todos los accessors) 
+
+a) Retornar todos los podcasts editados en el año que se pasa como parámetro.
+b) Dado un autor o un programa, retornar todos los temas que abarca. 
+c) Dado un programa y un criterio de ordenamiento, reproducir automâticamente un
+programa (escucha un podcast y automáticamente carga el siguiente). El criterio de ordenamiento puede ser: fecha de podcast ascendente, fecha de podcast
+descendiente, orden altabético de autor. Esta funcionalidad devuelve la lista de los podcasts a escuchar ordenados segün el criterio indicado.
+d) Crear una playlist por contactos. Para su creación, se recibe como parametro el
+usuano, el nombre de la lista y la duracion maxima deseada. Anchoor incluirà en la
+sta programas que están en las listas de los contactos del usuano. pero no estan en sus propias istas, sin superar la duracion max1ma deseada para la lista e)Crear une playlist por descubrimento. Para su creacion, se recibe como parametro
+el usuario y el nombre "Descubrimiento Anchoor incluirà en la lista 5 programas
+que están en Anchoor y de loOs que el usuao nunca reprodujo ningún podcast

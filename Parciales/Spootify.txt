@@ -1,0 +1,17 @@
+Sea Spootily un sistema para organizar y reproducir pistas de audio (conoc1das como temas) Los temas se organizan en ålbumes. De un tema se conoce el titulo, duración, musico y género. Los álbumes tienen un titulo, fecha de edición y los temas que lo conforman. En un ålbum puede haber temas de diferente género y músico En Spootity también se pueden crear Playlists. que son listas de temas. Un usuario de Spootify puede crear una o más listas. De cada usuario se almacena el nombre, una clave y cada vez que reproduce un tema (se guarda tema y fecha de reproducción) De cada usuario se almacena quê temas reproduce y la fecha de esa reproducción. Además, un usuario tiene uno o más contactos (que son otros usuarios de Spootify)
+
+Tareas
+
+1) Diseñar un modelo de objetos para resolver ei problema planteado y presentario con un diagrama de clases UML.
+
+2) Programar en Java lo necesario para obtener la siguiente funcionalidad (incluya los constructores de todos los objetos, no es necesario que incluya todos los accessors):
+
+a) Retornar todos los temas incluidos en ábumes editados en el año que se pasa como parámetro.
+b) Dado un álbum, un músico o una playlist, etornar todos los géneros que abarca
+c) Conocer la duración de un álbum (que es ia suma de la duración de sus temas)
+d) Crear una playlist por géneros. Para su creación se recibe como parámetro el
+nombre, la duración máxima deseada y una lista de géneros. Spootify deberá
+"rellenar" la lista con temas cuyos géneros existan en la lista, tratando de cubrir tantos géneros como sea posible, sin superar la duración máxima deseada.
+e) Crear una playlist por contactos. Para su creación, se recibe como paràmetro el
+usuario, el nombre de la lista y la duración maxima deseada. Spootify incluirà en la lista temas que están en las listas de los contactos del usuario, pero no están en sus propias listas, sin superar la duración måxima deseada para la lista.
+f) Crear una el usuario y el nombre "Descubrimiento", Para su creación, se recibe como parámetro el usuario y el nombre "Descubrimiento", Sp0otify incluirå en la lista 10 temas que el usuario nunca reprodujo 
